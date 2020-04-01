@@ -1,0 +1,25 @@
+﻿
+@model  NormMVC.Models.Product
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Product List</title>
+</head>
+<body>
+    <h3>'Product List'</h3>
+
+    <div>
+        Name : @Model.Price
+    </div>
+    <div>
+        Email : @Model.Name
+    </div>
+    <div>
+        Department : @Model.Category.Name
+    </div>
+</body>
+</html>
